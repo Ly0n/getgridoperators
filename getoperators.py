@@ -12,12 +12,33 @@ SELECT
   ?country ?countryLabel
   ?website
   ?hqLabel
+  ?inception
+  ?ceoLabel
+  ?employees
+  ?revenue
+  ?industryLabel
+  ?logo
+  ?stockExchangeLabel
+  ?dissolved
 WHERE {
-  ?operator wdt:P31 wd:Q112046 ;
+  VALUES ?operatorType {
+    wd:Q112046  # transmission system operator
+    wd:Q472093        # electricity distribution network operator
+  }
+
+  ?operator wdt:P31 ?operatorType ;
             wdt:P17 ?country .
 
   OPTIONAL { ?operator wdt:P856 ?website . }
   OPTIONAL { ?operator wdt:P159 ?hq . }
+  OPTIONAL { ?operator wdt:P571 ?inception . }
+  OPTIONAL { ?operator wdt:P169 ?ceo . }
+  OPTIONAL { ?operator wdt:P1128 ?employees . }
+  OPTIONAL { ?operator wdt:P2139 ?revenue . }
+  OPTIONAL { ?operator wdt:P452 ?industry . }
+  OPTIONAL { ?operator wdt:P154 ?logo . }
+  OPTIONAL { ?operator wdt:P414 ?stockExchange . }
+  OPTIONAL { ?operator wdt:P576 ?dissolved . }
 
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "en".
@@ -38,10 +59,24 @@ for r in results:
         "country_qid": r["country"]["value"].split("/")[-1],
         "country_label": r["countryLabel"]["value"],
         "website": r.get("website", {}).get("value"),
-        "headquarters": r.get("hqLabel", {}).get("value")
+        "headquarters": r.get("hqLabel", {}).get("value"),
+        "inception": r.get("inception", {}).get("value"),
+        "ceo": r.get("ceoLabel", {}).get("value"),
+        "employees": r.get("employees", {}).get("value"),
+        "revenue": r.get("revenue", {}).get("value"),
+        "industry": r.get("industryLabel", {}).get("value"),
+        "logo": r.get("logo", {}).get("value"),
+        "stock_exchange": r.get("stockExchangeLabel", {}).get("value"),
+        "dissolved": r.get("dissolved", {}).get("value")
     })
 
 df = pd.DataFrame(rows)
-df.to_csv("grid_operators_worldwide.csv", index=False)
 
-print(f"✅ Done. Retrieved {len(df)} operators.")
+# Remove duplicate operators based on operator_qid
+df = df.drop_duplicates(subset="operator_qid", keep="first")
+
+# Save to CSV
+output_file = "grid_operators_worldwide_full.csv"
+df.to_csv(output_file, index=False)
+
+print(f"✅ Done. Retrieved {len(df)} unique operators and saved to '{output_file}'.")
