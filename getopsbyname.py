@@ -732,6 +732,19 @@ names = [
     "Instituto Nacional de Electrificación (INDE)",   # Guatemala national transmission & electricity authority (shares in EPR) :contentReference[oaicite:5]{index=5}
     "Electric Transmission and Dispatch Center (CNDC)",# Nicaragua transmission dispatch center :contentReference[oaicite:6]{index=6}
     "Belize Electricity Limited (BEL)"                # Belize national grid operator/transmission provider :contentReference[oaicite:7]{index=7}
+    "Alberta Electric System Operator (AESO) – ISO",
+    "California Independent System Operator (CAISO) – ISO",
+    "Electric Reliability Council of Texas (ERCOT) – ISO",
+    "Midcontinent Independent System Operator, Inc. (MISO) – RTO",
+    "ISO New England (ISO-NE) – RTO",
+    "New York Independent System Operator (NYISO) – RTO [17]",
+    "Ontario Independent Electricity System Operator (IESO) – ISO",
+    "PJM Interconnection (PJM) – RTO",
+    "Southwest Power Pool (SPP) – RTO",
+    "Tavanir",
+    "Tavanir (Iran Power Generation, Transmission and Distribution Management Company)",
+    "Iran Grid Management Company (IGMC)",
+    "Ministry of Energy (Iran) - oversees electricity sector policy and regulation",
 ]
 
 
@@ -772,6 +785,7 @@ WHERE {
     wd:Q1326624 # electricity supply company
     wd:Q200928  # electric power transmission
     wd:Q7236594 # power pool
+    wd:Q19973795 # ministry of energy
   }
 
   ?operator wdt:P31 ?operatorType ;
