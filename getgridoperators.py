@@ -918,6 +918,7 @@ WHERE {
     wd:Q1326624 # electricity supply company
     wd:Q200928  # electric power transmission
     wd:Q7236594 # power pool
+    wd:Q137883267  # power generation company
   }
 
   ?operator wdt:P31 ?operatorType ;
@@ -1004,13 +1005,20 @@ def similarity(a, b):
     return SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 ALLOWED_INSTANCE_QIDS = {
-    "Q4830453",  # company
-    "Q783794",
-    "Q891723",
-    "Q1951366",
-    "Q197952",
-    "Q270791",
-    "Q327333"
+    "Q4830453",  # business
+    "Q783794", # company
+    "Q6881511", # enterprise
+    "Q891723", # public company
+    "Q1951366", # public utility
+    "Q197952", # corporate group
+    "Q270791", # state-owned enterprise
+    "Q327333", # government agency
+    "Q194166", # consortium
+    "Q192350", # ministry
+    "Q15911314", # association
+    "Q163740", #nonprofit organization
+    "Q4539", # cooperative
+    "Q2316331", #electric power industry
 }
 
 def search_wikidata(name, limit=10, fuzzy_threshold=0.6, max_fallbacks=3):
