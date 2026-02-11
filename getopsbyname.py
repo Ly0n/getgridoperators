@@ -742,9 +742,8 @@ names = [
     "PJM Interconnection (PJM) – RTO",
     "Southwest Power Pool (SPP) – RTO",
     "Tavanir",
-    "Tavanir (Iran Power Generation, Transmission and Distribution Management Company)",
     "Iran Grid Management Company (IGMC)",
-    "Ministry of Energy (Iran) - oversees electricity sector policy and regulation",
+    "Ministry of Energy (Iran) - oversees electricity sector policy and regulation"
 ]
 
 
@@ -785,7 +784,6 @@ WHERE {
     wd:Q1326624 # electricity supply company
     wd:Q200928  # electric power transmission
     wd:Q7236594 # power pool
-    wd:Q19973795 # ministry of energy
   }
 
   ?operator wdt:P31 ?operatorType ;
