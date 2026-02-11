@@ -3,6 +3,7 @@ import time
 import pandas as pd
 from tqdm import tqdm
 from collections import Counter
+from datetime import datetime
 
 # ==========================
 # CONFIGURATION
@@ -12,7 +13,7 @@ API_KEY = ""  # Optional: Insert your Semantic Scholar API key here
 QUERY = '"PLEXOS" AND "energy"'
 FIELDS = "title,year,abstract,citationCount,authors,authors.affiliations,externalIds"
 LIMIT_PER_REQUEST = 100  # Max allowed per request
-MAX_PAPERS = 2000        # Total papers to retrieve
+MAX_PAPERS = 10000        # Total papers to retrieve
 REQUEST_DELAY = 1.0      # Seconds between requests (increase if rate limited)
 OUTPUT_PAPERS = "papers.csv"
 OUTPUT_ORGS = "organizations_summary.csv"
@@ -22,6 +23,10 @@ BASE_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 headers = {}
 if API_KEY:
     headers["x-api-key"] = API_KEY
+
+# Compute cutoff year (last 10 years)
+CURRENT_YEAR = datetime.now().year
+YEAR_CUTOFF = CURRENT_YEAR - 10
 
 # ==========================
 # FUNCTION: Fetch Papers
@@ -54,10 +59,17 @@ def fetch_papers():
             if not papers:
                 break
 
-            all_papers.extend(papers)
+            # Filter papers by year and citation count
+            filtered_papers = [
+                p for p in papers
+                if p.get("year") and p["year"] >= YEAR_CUTOFF
+                and p.get("citationCount", 0) > 1
+            ]
+
+            all_papers.extend(filtered_papers)
             offset += LIMIT_PER_REQUEST
 
-            print(f"Collected {len(all_papers)} papers so far...")
+            print(f"Collected {len(all_papers)} papers meeting criteria so far...")
             time.sleep(REQUEST_DELAY)
 
         except requests.exceptions.RequestException as e:
@@ -111,10 +123,10 @@ def process_papers(papers):
 
 if __name__ == "__main__":
 
-    print("Starting large-scale PLEXOS paper scan...")
+    print("Starting large-scale PLEXOS paper scan (last 10 years, >1 citation)...")
     papers = fetch_papers()
 
-    print(f"\nTotal papers retrieved: {len(papers)}")
+    print(f"\nTotal papers retrieved meeting criteria: {len(papers)}")
 
     print("Processing affiliations, abstracts, citations, and DOI...")
     paper_rows, org_counter = process_papers(papers)
