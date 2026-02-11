@@ -135,7 +135,603 @@ names = [
     "Polskie Sieci Elektroenergetyczne S.A.", "Rede Eléctrica Nacional, S.A.", "C.N. Transelectrica S.A.",
     "Akcionarsko društvo Elektromreža Srbije", "Svenska Kraftnät", "ELES, d.o.o.", 
     "Slovenská elektrizačná prenosová sústava, a.s.", "National Power Company Ukrenergo",
-    "Moldelectrica", "Turkish Electricity Transmission Corporation"
+    "Moldelectrica", "Turkish Electricity Transmission Corporation",
+    "Codensa S.A. E.S.P",
+    "Alupar Investimento S.A.",
+    "Empresa de Água E Electricidade",
+    "Dabs Da Afghanistan Breshna Sherkat",
+    "Nampower",
+    "Empresas Públicas de Medellín E.S.P.",
+    "Operatori I Sistemit Te Transmetimit",
+    "Volta River Authority",
+    "Kenya Power and Lighting Company",
+    "Ena - Electric Networks of Armenia Cjsc",
+    "Electricidade E Alguas de Guine-Bissa",
+    "Electricity Company of Ghana",
+    "Electricity Supply Corporation of Malawi",
+    "Botswana Power Corporation",
+    "Northern Regions Electricity Distributor",
+    "Irbid District Electricity Distribution Company",
+    "Kharkivoblenergo Jsc",
+    "Central Electricity Board",
+    "Powergrid Corporation of India",
+    "Umeme Limited",
+    "Société Nationale D'Électricité Du Sénégal",
+    "National Electric Power Company",
+    "Enel Colombia",
+    "Centrales Eléctricas de Nariño S.A. E.S.P.",
+    "Société Nationale D'Electricité",
+    "Turkiye Elektrik Iletim Anonim Sirketi",
+    "Zambia Electricity Supply Corporation",
+    "Tunisian Company of Electricity and Gas",
+    "Societatea Energetica Electrica Sa - Consolidated",
+    "Peshwar Electric Supply Company Limited",
+    "Hyderabad Electric Supply Company",
+    "Vietnam Electricity",
+    "Energy Utility Corporation Limited",
+    "Empresa Regional de Servicio Público de Electricidad Del Centro S.A.",
+    "Ikeja Electricity Distribution Company",
+    "Quetta Electric Supply Company Limited",
+    "Empresa de Luz Y Fuerza Eléctrica Cochabamba S.A.",
+    "National Power Company \"Ukrenergo\"",
+    "Moldelectrica",
+    "Operatori I Shperndarjes Se Energjise Elektrike Sha",
+    "Pohnpei Utilities Corporation",
+    "Regional Electricity Networks (Ukraine)",
+    "Electricity Distribution Company",
+    "Electricity Distribution and Supply Authority",
+    "Lyonnaise des Eaux de Casablanca",
+    "Transelec S.A.",
+    "Georgian State Electrosystem Jsc",
+    "Lesotho Electricity Company",
+    "Kenya Electricity Transmission Co.",
+    "Hrvatska Elektroprivreda",
+    "Kano Electricity Distribution Company",
+    "Cntee Transelectrica Sa",
+    "Kazakhstan Electricity Grid Operating Company",
+    "Tubas Electricity Distribution Company",
+    "Yola Electricity Distribution Company",
+    "Copperbelt Energy Corporation",
+    "Empresa Pública de Produção de Electricidade",
+    "Empresa Distribuidora Y Comercializadora Norte S.A.",
+    "Compañía de Transporte de Energía Eléctrica En Alta Tensión Transener S.A.",
+    "Sudanese Electricity Transmission Company",
+    "Empresa de Electricidade E Àqua",
+    "Port Harcourt Electricity Distribution Company",
+    "Bangladesh Power Development Board",
+    "Sukkur Electric Power Company",
+    "Compañía Eléctrica Sucre S.A.",
+    "Eswatini Electricity Company",
+    "Electric Power Company of Togo",
+    "Adani Electricity Mumbai Limited",
+    "Jp Elektroprivreda Bih Dd Sarajevo",
+    "Bangalore Electricity Supply Company Limited",
+    "Empresa Provincial de Energía de Córdoba",
+    "National Power Corporation",
+    "Empresa Nacional de Distribução de Electricidade",
+    "Société Béninoise D'Energie Electrique",
+    "Energie Du Mali",
+    "Empresa Distribuidora de Electricidad de Mendoza S.A.",
+    "Eneo Cameroun S.A.",
+    "Caribemar de la Costa S.A.S. E.S.P",
+    "Metropolitan Electricity Authority",
+    "Jodhpur Vidyut Vitran Nigam Limited",
+    "Kazakhstan Utility Systems",
+    "Provincial Electricity Authority",
+    "Transmissora Aliança de Energia Elétrica S.A.",
+    "High Voltage Electrical Networks Cjsc",
+    "Pjsc Dtek Kyiv Regional Electric Networks",
+    "Astana Regional Distribution",
+    "Distribution System Operator",
+    "Electric Power Industry of Serbia",
+    "Purvanchal Vidyut Vitran Nigam Limited",
+    "Ghana Grid Company",
+    "Tanzania Electric Supply Company",
+    "Dhaka Power Distribution Company",
+    "National Electric Grid of Kyrgyzstan",
+    "Société des Energies de Cote D'Ivoire",
+    "Energy Fiji Limited",
+    "Alatau Jariq",
+    "Ethiopian Electric Power",
+    "Transmission, System and Market Operator - Kostt J.S.C.",
+    "Uganda Electricity Generation Company",
+    "Liberia Electricity Corporation",
+    "Faisalabad Electric Supply Company Limited",
+    "Saudi Electricity Company",
+    "Tenaga Nasional Berhad",
+    "Toshkent Shahar Elektr Tarmoqlari Korxonasi",
+    "Empresa Eléctrica Pública Estratégica Corporación Nacional de Electricidad",
+    "Dakshin Gujarat Vij Company Limited",
+    "Intercolombia S.A. E.S.P",
+    "Société Nigérienne D'Electricité",
+    "Marshalls Energy Company",
+    "Uganda Electricity Transmission Company",
+    "Jerusalem District Electricity Company",
+    "Energia de Entre Rios Sociedad Anonima",
+    "Dominica Electricity Services Limited",
+    "Zimbabwe Electricity Transmission and Distribution Company",
+    "Abuja Electricity Distribution Company",
+    "Gambia Water & Electricity Company",
+    "Nepal Electricity Authority",
+    "Oman Electricity Transmission Company",
+    "Power Grid Company of Bangladesh Ltd.",
+    "Compagnie Ivoirienne D'Electricité",
+    "Sudanese Thermal Power Generating Company",
+    "Islamabad Electric Supply Company",
+    "West Bengal State Electricity Distribution Company Limited",
+    "Madhya Pradesh Madhya Kshetra Vityut Vitran Company Limited",
+    "West Zone Power Distributions Company Limited",
+    "Azerenerji",
+    "Solomon Islands Electricity Authority",
+    "Lahore Electric Supply Company Limited",
+    "Régie de Production et de Distribution D'Eau et D'Electricité",
+    "Société Mauritanienne D'Électricité",
+    "Tata Power Delhi Distribution Limited",
+    "Erongo Regional Electricity Distributor",
+    "Companhia de Transmissão de Energia Elétrica Paulista S.A",
+    "Société Nationale de L’Electricité des Comores",
+    "St. Lucia Electricity Services Limited",
+    "Kanpur Electricity Supply Company Limited",
+    "Société Nationale D'Electricité",
+    "Multan Electric Power Company Limited",
+    "Central North Regional Electricity Distributor",
+    "Elektroprivreda Crne Gore Ad Niksic",
+    "Jos Electricity Distribution",
+    "Electricity Generating Authority of Thailand",
+    "Severelectro (Kyrgyz Republic)",
+    "Empresa de Energía Del Quindío S.A. E.S.P.",
+    "K-Electric Limited",
+    "Perusahaan Perseroan (Persero) Pt Perusahaan Listrik Negara",
+    "Distribuidora de Electricidad de la Paz S.A.",
+    "Regional Electrical Power Networks",
+    "Ethiopian Electric Utility",
+    "Administración Nacional de Electricidad",
+    "Eko Electricity Distribution Company",
+    "Société Nationale D'Électricité Du Burkina Faso",
+    "Png Power Limited",
+    "Northern Electricity Distribution Company",
+    "Electricidade de Moçambique",
+    "Transmission Company of Nigeria",
+    "Administración Nacional de Usinas Y Trasmisiones Eléctricas",
+    "Ibadan Electricity Distribution Company",
+    "Soceite D'Energie et D'Eau Du Gabon",
+    "Azerishig",
+    "Enel Distribución Perú S.A.A.",
+    "A Empresa Eléctrica Regional Centro Sur C.A.",
+    "Sudanese Electricity Distribution Company",
+    "Jiro Sy Rano Malagasy",
+    "Kaduna Electricity Distribution Company",
+    "Kenya Electricity Generation Company",
+    "Andhra Pradesh Eastern Power Distribution Company Limited",
+    "Jordan Electric Power Company",
+    "Dakshin Haryana Bijli Vitran Nigam Limited",
+    "Pamir Energy Company",
+    "National Transmission & Despatch Company",
+    "Southern Electric Company",
+    "Benin Electricity Distribution Company",
+    "Empresa Rede Nacional de Transporte de Electricidade",
+    "Zimbabwe Power Company",
+    "Régie Autonome de Distribution D'Eau et D'Electricité de Marrakech",
+    "Maharashtra State Electricty Distribution Company Limited",
+    "Enugu Electricity Distribution Company",
+    "Eskom Holdings Soc Ltd",
+    "National Electric Grid of Uzbekistan",
+    "Akmola Electricity Distribution Company",
+    "Gurjanwala Electric Power Company Limited",
+    "Comision Federal de Electricidad",
+    "Energie Centrafricaine",
+    "Barqi Tojik",
+    "Electrificadora de Santander S.A. E.S.P",
+    "Sudanese Hydro and Renewable Energy Generation Company",
+    "Companhia Paulista de Força Luz",
+    "Electricité de Guinée",
+    "Empresa Provincial de la Energía de Santa Fé"
+    "National Grid Electricity System Operator [NGESO]",
+    "Federal Energy Regulatory Commission [FERC]",
+    "Energinet [Energinet]",
+    "Bundesnetzagentur [BNetzA]",
+    "Austrian Power Grid [APG]",
+    "Elia [Elia]",
+    "Creos Luxembourg S.A. [Creos]",
+    "ČEPS [ČEPS]",
+    "TransnetBW [TransnetBW]",
+    "TenneT [TenneT]",
+    "Amprion [Amprion]",
+    "50Hertz [50Hertz]",
+    "Elering [Elering]",
+    "Red Eléctrica de España [REE]",
+    "Fingrid [Fingrid]",
+    "Réseau de Transport d’Electricité [RTE]",
+    "Independent Power Transmission Operator [IPTO]",
+    "HOPS [HOPS]",
+    "MAVIR [MAVIR]",
+    "EirGrid [EirGrid]",
+    "Landsnet [Landsnet]",
+    "Terna [Terna]",
+    "Litgrid [Litgrid]",
+    "Augstsprieguma tīkls [AST]",
+    "Electric System Operator [ESO]",
+    "Swissgrid [Swissgrid]",
+    "Crnogorski Elektroprenosni Sistem [CGES]",
+    "MEPSO [MEPSO]",
+    "Polskie Sieci Elektroenergetyczne [PSE]",
+    "Rede Eléctrica Nacional [REN]",
+    "Transelectrica [Transelectrica]",
+    "Elektromreža Srbije [EMS]",
+    "Svenska kraftnät [Svenska kraftnät]",
+    "ELES [ELES]",
+    "SEPS [SEPS]",
+    "Ukrenergo [Ukrenergo]",
+    "Operatori i Sistemit të Transmetimit [OST]",
+    "NOSBiH [NOSBiH]",
+    "Transmission System Operator Cyprus [TSOC]",
+    "Power Grid Corporation of India [PGCIL]",
+    "State Grid Corporation of China [SGCC]",
+    "China Southern Power Grid [CSG]",
+    "Transtel (former EMS) [TESA]",
+    "CELEC EP [CELEC EP]",
+    "Moldelectrica [Moldelectrica]",
+    "TEİAŞ [TEİAŞ]",
+    "PJM Interconnection [PJM]",
+    "Midcontinent ISO [MISO]",
+    "California ISO [CAISO]",
+    "NYISO [NYISO]",
+    "ISO New England [ISO-NE]",
+    "Southwest Power Pool [SPP]",
+    "Electric Reliability Council of Texas [ERCOT]",
+    "Independent Electricity System Operator [IESO]",
+    "ENMAX [ENMAX]",
+    "Canadian Electricity Association [CEA]",
+    "National Energy Board [NEB]",
+    "Ofgem [Ofgem]",
+    "Commission for Energy Regulation [CER]",
+    "Commission de Régulation de l'Énergie [CRE]",
+    "ARERA [ARERA]",
+    "E-Control [E-Control]",
+    "Central Securities Regulator [CSRC]",
+    "Saudi Electricity Company [SEC]",
+    "National Energy Regulator of South Africa [NERSA]",
+    "EgyptERA [EgyptERA]",
+    "Kenya Energy and Petroleum Regulator [EPRA]",
+    "Botswana Energy Regulatory Authority [BERA]",
+    "Malawi Energy Regulatory Authority [MERA]",
+    "Zimbabwe Energy Regulatory Authority [ZERA]",
+    "Ofwat [Ofwat]"
+
+    # Africa
+    "Botswana Energy Regulatory Authority (BERA)",
+    "Egyptian Electric Utility and Consumer Protection Regulatory Agency",
+    "Malawi Energy Regulatory Authority (MERA)",
+    "Energy and Petroleum Regulatory Authority (EPRA)",
+    "National Energy Regulator (NERSA)",
+    "Zimbabwe Energy Regulatory Authority (ZERA)",
+    "Fair Trading Commission (FTC)",  # Barbados
+
+    # Americas
+    "Canada Energy Regulator (CER)",
+    "Canadian Nuclear Safety Commission (CNSC)",
+    "Federal Energy Regulatory Commission (FERC)",
+    "Nuclear Regulatory Commission (NRC)",  # USA
+
+    # Asia - South Asia & Others
+    "Bangladesh Energy Regulatory Commission (BERC)",
+    "Bhutan Electricity Authority (BEA)",
+    "Central Electricity Regulatory Commission (CERC)",  # India
+    "Atomic Energy Regulatory Board (AERB)",  # India - nuclear
+    "Energy Commission of Malaysia (Suruhanjaya Tenaga)",
+    "Electricity Regulatory Commission (ERC)",  # Nepal
+    "Authority for Electricity Regulation (AER)",  # Oman
+    "Oil & Gas Regulatory Authority (OGRA)",  # Pakistan
+    "National Electric Power Regulatory Authority (NEPRA)",  # Pakistan
+    "Pakistan Nuclear Regulatory Authority (PNRA)",  # Pakistan
+    "State Electricity Regulatory Commission (SERC)",  # China
+    "China Atomic Energy Authority (CAEA)",  # China - nuclear
+    "Energy Regulatory Commission (ERC)",  # Philippines
+    "Energy Market Authority (EMA)",  # Singapore
+    "Public Utilities Commission of Sri Lanka (PUCSL)",
+    "Energy Regulatory Commission (ERC)",  # Thailand
+
+    # ERRA members (Europe & Eurasia)
+    "Energy Regulatory Authority",  # Albania
+    "Public Services Regulatory Commission of Armenia",
+    "Tariff (Price) Council of the Republic of Azerbaijan",
+    "Azerbaijan Energy Regulatory Agency",
+    "State Electricity Regulatory Commission",  # Bosnia & Herzegovina
+    "State Energy and Water Regulatory Commission",  # Bulgaria
+    "Croatian Energy Regulatory Agency",
+    "Energy Regulatory Division of the Estonian Competition Authority",
+    "Georgian National Energy and Water Supply Regulatory Commission",
+    "Hungarian Energy Office",
+    "Agency of the Republic of Kazakhstan for Regulation of Natural Monopolies",
+    "State Department of Fuel & Energy Regulation, Energy and Fuel Resources of Kyrgyz Republic",
+    "Public Utilities Commission",  # Latvia
+    "National Control Commission for Prices and Energy in Lithuania",
+    "Energy Regulatory Commission of the Republic of Macedonia",
+    "National Energy Regulatory Agency",  # Moldova
+    "Energy Regulatory Authority",  # Mongolia
+    "Energy Regulatory Agency of the Republic Montenegro",
+    "Energy Regulatory Office",  # Poland
+    "Romanian Energy Regulatory Authority",
+    "Federal Tariff Service",  # Russia
+    "Energy Agency of the Republic of Serbia",
+    "Regulatory Office for Network Industries",  # Slovakia
+    "Energy Market Regulatory Authority",  # Turkey
+    "National Electricity Regulatory Commission of Ukraine",
+
+    # Associate & Affiliated members
+    "National Regulatory Authority for Municipal Services",  # Romania
+    "Energy Regulatory Office of UNMIK Kosovo",
+    "Electricity Regulatory Commission",  # Jordan
+    "Nigerian Electricity Regulatory Commission",
+    "Water and Electricity Regulatory Authority - WERA",  # Saudi Arabia
+    "Regulation and Supervision Bureau of United Arab Emirates",
+    "National Association of Regulatory Utility Commissioners - NARUC",  # US
+
+    # East Africa
+    "Energy and Petroleum Regulatory Authority",  # Kenya
+    "Energy and Water Utilities Regulatory Authority",  # Tanzania
+    "Zanzibar Utilities Regulatory Authority",
+    "Electricity Regulatory Authority",  # Uganda
+    "Petroleum Authority of Uganda",
+    "Rwanda Utilities Regulatory Authority",
+    "Autorité de Régulation des secteurs de l’Eau potable et de l’Energie",  # Burundi
+    "Petroleum Upstream Regulatory Authority",  # Tanzania
+    "L’Autorité de Régulation du secteur de l’Electricité",  # DRC
+
+    "Power Grid Corporation of India Limited",           # Central Transmission Utility (inter-state) :contentReference[oaicite:1]{index=1}
+    "Grid Controller of India Limited",                  # National grid operator (formerly POSOCO) :contentReference[oaicite:2]{index=2}
+    "Andhra Pradesh Transmission Corporation Limited",   # State Transmission Utility :contentReference[oaicite:3]{index=3}
+    "Assam Electricity Grid Corporation Limited",        # State Transmission Utility :contentReference[oaicite:4]{index=4}
+    "Bihar State Power Transmission Company Limited",    # State Transmission Utility :contentReference[oaicite:5]{index=5}
+    "Chhattisgarh State Power Transmission Company Ltd", # State Transmission Utility :contentReference[oaicite:6]{index=6}
+    "Delhi Transco Limited",                             # State Transmission Utility :contentReference[oaicite:7]{index=7}
+    "Gujarat Energy Transmission Corporation Limited",   # State Transmission Utility :contentReference[oaicite:8]{index=8}
+    "Haryana Vidyut Prasaran Nigam Limited",             # State Transmission Utility :contentReference[oaicite:9]{index=9}
+    "Karnataka Power Transmission Corporation Ltd",      # State Transmission Utility :contentReference[oaicite:10]{index=10}
+    "Madhya Pradesh Power Transmission Company Ltd",     # State Transmission Utility :contentReference[oaicite:11]{index=11}
+    "Maharashtra State Electricity Transmission Co Ltd", # State Transmission Utility :contentReference[oaicite:12]{index=12}
+    "Punjab State Transmission Corporation Ltd",         # State Transmission Utility :contentReference[oaicite:13]{index=13}
+    "Rajasthan Rajya Vidyut Prasaran Nigam Ltd",         # State Transmission Utility :contentReference[oaicite:14]{index=14}
+    "Tamil Nadu Transmission Corporation Limited",       # State Transmission Utility :contentReference[oaicite:15]{index=15}
+    "Uttar Pradesh Power Transmission Corporation Ltd",  # State Transmission Utility :contentReference[oaicite:16]{index=16}
+    "West Bengal State Electricity Transmission Co Ltd"   # State Transmission Utility :contentReference[oaicite:17]{index=17}
+    "National Transmission and Despatch Company (NTDC)",
+    "Khyber Pakhtunkhwa Transmission & Grid System Company (Private) Limited",
+    "Punjab Grid Company Limited",
+    "Sindh Transmission & Dispatch Company (Pvt.) Limited",
+    "K-Electric Limited",
+    "Fatima Transmission Company Limited",
+    "Pak Matiari-Lahore Transmission Line Company"
+    "PT Perusahaan Listrik Negara (PLN)",
+    "Tenaga Nasional Berhad (TNB)",
+    "Sabah Electricity Sdn. Bhd. (SESB)",
+    "National Grid Corporation of the Philippines (NGCP)",
+    "Electricity Generating Authority of Thailand (EGAT)",
+    "EVN National Power Transmission Corporation (EVN NPT)",
+    "SP Group (Singapore Power)",
+    "Electricité du Laos (EDL)",
+    "Electricite de Cambodge (EDC)",
+    "Myanmar Electricity Transmission/Distribution",
+    "Brunei Electricity Grid"
+    "Transener S.A.",        # Main national extra‑high‑voltage transmission operator :contentReference[oaicite:1]{index=1}
+    "Transba S.A.",          # Operates trunk transmission network in Buenos Aires province :contentReference[oaicite:2]{index=2}
+    "LITSA",                 # Líneas de Transmisión del Litoral S.A. :contentReference[oaicite:3]{index=3}
+    "Transnoa",              # Regional transmission operator (Northwest) :contentReference[oaicite:4]{index=4}
+    "Transnea",              # Regional transmission operator (Northeast) :contentReference[oaicite:5]{index=5}
+    "Transpa",               # Regional transmission operator (Pampeana) :contentReference[oaicite:6]{index=6}
+    "Distrocuyo"             # Regional transmission operator (Cuyo) :contentReference[oaicite:7]{index=7}
+    "Centrais Elétricas Brasileiras S.A. (Eletrobras)",
+    "Centrais Elétricas do Norte do Brasil S.A. (Eletronorte)",
+    "CGT Eletrosul – Companhia de Geração e Transmissão de Energia Elétrica do Sul do Brasil – Eletrobras CGT Eletrosul",
+    "Furnas – Centrais Elétricas S.A. (Eletrobras Furnas)",
+    "Companhia de Transmissão de Energia Elétrica Paulista (ISA CTEEP)",
+    "Transmissora Aliança de Energia Elétrica S.A. (TAESA)",
+    "Companhia Energética de Minas Gerais Geração e Transmissão S.A. (CEMIG G&T)",
+    "Copel Geração e Transmissão S.A.",
+    "Companhia Estadual de Geração e Transmissão – CEEE Geração e Transmissão",
+    "CELG Geração e Transmissão S.A. (CELG GT)",
+    "Neoenergia Transmissão (various SPEs of Neoenergia S.A.)",
+    "State Grid Brazil Holding S.A.",
+    "Alupar Investimento S.A.",
+    "Argo Energia Empreendimentos e Participações S.A.",
+    "Auren Energia S.A.",
+    "EDF Norte Fluminense S.A.",
+    "EDP Energias do Brasil S.A.",
+    "Engie Brasil Energia S.A.",
+    "Equatorial Energia S.A.",
+    "Grupo CPFL Energia (transmission subsidiaries)",
+    "L.I.G. Global Service Tecnologia em Implantação Sistemas Telecomunicações e Energia Ltda",
+    "Cymi Construções e Participações S.A.",
+    # Colombia
+    "ISA Intercolombia",         # Part of Interconexión Eléctrica S.A. operations in Colombia :contentReference[oaicite:0]{index=0}
+    "ISA Transelca",             # Another ISA affiliate in Colombia :contentReference[oaicite:1]{index=1}
+    "XM (Operador del Sistema)",# Market/coordination operator in Colombia :contentReference[oaicite:2]{index=2}
+
+    # Chile
+    "ISA Energía (Chile)",      # ISA affiliate operating transmission assets in Chile :contentReference[oaicite:3]{index=3}
+    "Interconexiones del Norte",# Chile transmission company under ISA Energía :contentReference[oaicite:4]{index=4}
+    "Conexión Energía",         # Another Chile transmission concession under ISA Energía :contentReference[oaicite:5]{index=5}
+    "Transemel",                # Independent transmission operator in Chile :contentReference[oaicite:6]{index=6}
+    "Transmisora Sur",          # Smaller Chilean transmission operator :contentReference[oaicite:7]{index=7}
+    "Red Eléctrica Chile / TEN / REDENOR / Centinela Transmisión",  # Group of transmission concessions managed by Red Eléctrica/affiliates in Chile :contentReference[oaicite:8]{index=8}
+
+    # Peru
+    "ISA Energía (Perú)",      # ISA affiliate in Peru involved in transmission :contentReference[oaicite:9]{index=9}
+    "Red de Energía del Perú",  # Major Peruvian transmission system operator :contentReference[oaicite:10]{index=10}
+    "Consorcio Transmantaro",   # Transmission concession in Peru :contentReference[oaicite:11]{index=11}
+    "Consorcio Eléctrico Yapay",# Transmission concession in Peru :contentReference[oaicite:12]{index=12}
+    # Also note: Spanish company Celeo Redes won a Peru–Ecuador interconnection concession (transmission project) :contentReference[oaicite:13]{index=13}
+    "Celeo Redes",              # Transmission concessions (incl. Peru–Ecuador link) :contentReference[oaicite:14]{index=14}
+    "Red Eléctrica Andina / REDESUR / REDELNOR",  # Transmission companies in Peru under the Red Eléctrica group :contentReference[oaicite:15]{index=15}
+
+    # Bolivia
+    "ISA Bolivia",             # ISA affiliate operating transmission assets in Bolivia :contentReference[oaicite:16]{index=16}
+    # (Note: Bolivia’s transmission sector also includes state and concessionaires regulated by government, but ISA Bolivia is a prominent operator.)
+
+    # Ecuador
+    "Celeo Redes (Ecuador)",     # Project operator for the Peru–Ecuador interconnection (concession) :contentReference[oaicite:17]{index=17}
+    # The national Ecuadorean grid operator is typically managed via state system operator (e.g., CENACE Ecuador), though major concessionaires also participate.
+    "Société Algérienne de Gestion du Réseau de Transport de l’Électricité (GRTE)",  # Algeria :contentReference[oaicite:0]{index=0}
+    "Egyptian Electricity Transmission Company (EETC)",                            # Egypt :contentReference[oaicite:1]{index=1}
+    "General Electricity Company of Libya (GECOL)",                               # Libya :contentReference[oaicite:2]{index=2}
+    "Office National de l’Électricité et de l’Eau Potable (ONEE)",               # Morocco :contentReference[oaicite:3]{index=3}
+    "Société Tunisienne de l’Électricité et du Gaz (STEG)"                        # Tunisia :contentReference[oaicite:4]{index=4}
+    "Empresa Rede Nacional de Transporte de Electricidade (RNT‑EP)",   # Angola :contentReference[oaicite:0]{index=0}
+    "REGIDESO Burundi",                                              # Burundi :contentReference[oaicite:1]{index=1}
+    "SONATREL (Société Nationale de Transport de l’Électricité)",    # Cameroon :contentReference[oaicite:2]{index=2}
+    "SNE (Société Nationale d’Electricité)",                          # Chad :contentReference[oaicite:3]{index=3}
+    "Energia Centrafricaine (ENERCA)",                                # Central African Republic :contentReference[oaicite:4]{index=4}
+    "Société Nationale d’Électricité (SNEL)",                         # Democratic Republic of the Congo :contentReference[oaicite:5]{index=5}
+    "SNE (Société Nationale d’Electricité)",                          # Republic of the Congo :contentReference[oaicite:6]{index=6}
+    "SEEG (Société d’Energie et d’Eau du Gabon)",                     # Gabon :contentReference[oaicite:7]{index=7}
+    "SEGESA (Sociedad de Electricidad de Guinea Ecuatorial)",         # Equatorial Guinea :contentReference[oaicite:8]{index=8}
+    "EMAE (Empresa de Água e Electricidade)"                          # São Tomé and Príncipe :contentReference[oaicite:9]{index=9}
+    "Transmission Company of Nigeria (TCN)",            # Nigeria national grid operator :contentReference[oaicite:0]{index=0}
+    "Ghana Grid Company (GRIDCo)",                     # Ghana’s transmission system operator :contentReference[oaicite:1]{index=1}
+    "Société Nigérienne d'Électricité (NIGELEC)",       # Niger national utility with transmission roles :contentReference[oaicite:2]{index=2}
+    "Société Nationale d'Électricité du Sénégal (Senelec)",  # Senegal’s national utility that operates transmission :contentReference[oaicite:3]{index=3}
+    "Société Béninoise d'Énergie Électrique (SBEE)",    # Benin’s national utility (transmission included) :contentReference[oaicite:4]{index=4}
+    "SONABEL (Société Nationale d'Électricité du Burkina Faso)",  # Burkina Faso national utility (transmission) :contentReference[oaicite:5]{index=5}
+    "Electricité de Guinée (EDG)",                     # Guinea national utility (transmission by utility) :contentReference[oaicite:6]{index=6}
+    "Electricidade e Águas da Guiné-Bissau (EAGB)",    # Guinea‑Bissau national utility (transmission) :contentReference[oaicite:7]{index=7}
+    "Liberia Electricity Corporation (LEC)",            # Liberia’s national utility (transmission included) :contentReference[oaicite:8]{index=8}
+    "National Water and Electricity Company (NAWEC)",   # Gambia national utility (transmission included) :contentReference[oaicite:9]{index=9}
+    "CI‑ENERGIES / Compagnie Ivoirienne d'Électricité (Côte d’Ivoire)"  # Ivory Coast utility with transmission roles :contentReference[oaicite:10]{index=10}
+    "Uganda Electricity Transmission Company Limited (UETCL)",
+    "Kenya Electricity Transmission Company Limited (KETRACO)",
+    "Tanzania Electric Supply Company Limited (TANESCO)",  # operates transmission & distribution
+    "Rwanda Energy Group Limited (REG)",
+    "Régie de Production et Distribution d'Eau et d'Électricité (REGIDESO) Burundi",
+    "Ethiopian Electric Power (EEP)",
+    "Electricité de Djibouti (EDD)",
+    "Société Nationale d'Électricité (SNEL) - DR Congo",
+    "South Sudan Electricity Corporation (SSEC)",
+    "Sudanese Electricity Transmission Company (SETCO)"
+    "National Transmission Company South Africa (NTCSA)",  # Main national transmission operator :contentReference[oaicite:0]{index=0}
+    "Société Algérienne de Gestion du Réseau de Transport de l'Electricité (GTRE) - Algeria",
+    "Egyptian Electricity Transmission Company (EETC) - Egypt",
+    "National Electric Power Company (NEPCO) - Jordan",
+    "Ministry of Electricity and Water (MEW) - Kuwait",
+    "Oman Electricity Transmission Company (OETC) - Oman",
+    "Qatar General Electricity & Water Corporation (Kahramaa) - Qatar",
+    "Saudi Electricity Company (SEC) - Saudi Arabia",
+    "Dubai Electricity and Water Authority (DEWA) - UAE (transmission function)",
+    "Abu Dhabi Transmission and Despatch Company (TRANSCO) - UAE",
+    "Electricity and Water Authority (EWA) - Bahrain",
+    "Société Tunisienne de l'Électricité et du Gaz (STEG) - Tunisia",
+    "Office National de l'Electricité et de l'Eau Potable (ONEE) - Morocco",
+    "Electricité du Liban (EDL) - Lebanon",
+    "General Electricity Company of Libya (GECOL) - Libya",
+    "Public Electricity Corporation - Yemen",
+    "Ministry of Electricity (sector authority) - Iraq"
+    "Hokkaido Electric Power Network Co., Ltd.",
+    "Tohoku Electric Power Network Co., Ltd.",
+    "Tokyo Electric Power Grid Co., Ltd.",
+    "Chubu Electric Power Grid Co., Ltd.",
+    "Hokuriku Electric Power Transmission & Distribution Co., Ltd.",
+    "Kansai Electric Power Transmission & Distribution Co., Ltd.",
+    "Chugoku Electric Power Network Co., Ltd.",
+    "Shikoku Electric Power Transmission & Distribution Co., Ltd.",
+    "Kyushu Electric Power Transmission & Distribution Co., Ltd.",
+    "Okinawa Electric Power Co., Ltd.",
+
+    # Pure transmission operators (送電事業者)
+    "J-POWER Development & Transmission Network Co., Ltd.",
+    "Hokkaido North Wind Power Transmission Co., Ltd.",
+    "Fukushima Transmission Co., Ltd."
+    "Korea Power Exchange (KPX)",
+    "Korea Electric Power Corporation (KEPCO)",
+    "National Power Transmission Corporation (EVNNPT)"
+    "Federal Grid Company of Unified Energy System (FGC UES)",  # main national TSO operating Russia’s high-voltage grid :contentReference[oaicite:1]{index=1}
+    "System Operator of the Unified Energy System (SO UPS)",    # centralized dispatch and operational control of the Unified Power System :contentReference[oaicite:2]{index=2}
+    # Note: the following are major regional or network companies that operate transmission/distribution networks
+    "Rosseti",                                                # holding company for interregional/rural transmission networks :contentReference[oaicite:3]{index=3}
+    "Moscow United Electric Grid Company (MOESK)",             # regional grid operator in Moscow area (transmission/distribution) :contentReference[oaicite:4]{index=4}
+    "PJM Interconnection",            # RTO serving Mid‑Atlantic & Midwest regions :contentReference[oaicite:1]{index=1}
+    "Midcontinent Independent System Operator (MISO)",  # RTO covering Midwest & parts of the South :contentReference[oaicite:2]{index=2}
+    "California Independent System Operator (CAISO)",   # ISO for California :contentReference[oaicite:3]{index=3}
+    "Southwest Power Pool (SPP)",     # RTO for central U.S. :contentReference[oaicite:4]{index=4}
+    "New York Independent System Operator (NYISO)",     # ISO for New York :contentReference[oaicite:5]{index=5}
+    "ISO New England (ISO‑NE)",       # RTO/ISO for New England states :contentReference[oaicite:6]{index=6}
+    "Electric Reliability Council of Texas (ERCOT)",     # ISO for most of Texas :contentReference[oaicite:7]{index=7}
+    "Alberta Electric System Operator (AESO)",         # Operates Alberta’s transmission system and market :contentReference[oaicite:1]{index=1}
+    "AltaLink",                                       # Major transmission owner in Alberta :contentReference[oaicite:2]{index=2}
+    "ATCO Electric",                                  # Transmission owner in Alberta :contentReference[oaicite:3]{index=3}
+    "ENMAX (Transmission assets)",                    # Owns transmission assets in Alberta :contentReference[oaicite:4]{index=4}
+    "EPCOR (Transmission assets)",                    # Owns transmission assets in Alberta :contentReference[oaicite:5]{index=5}
+    "BC Hydro (Transmission)",                        # Crown corp. owns/operates BC transmission :contentReference[oaicite:6]{index=6}
+    "Hydro‑Québec TransÉnergie",                      # Québec’s transmission operator :contentReference[oaicite:7]{index=7}
+    "Hydro One",                                      # Ontario transmission owner :contentReference[oaicite:8]{index=8}
+    "Independent Electricity System Operator (IESO)",  # Manages Ontario’s transmission system :contentReference[oaicite:9]{index=9}
+    "NB Power (Transmission)",                        # New Brunswick transmission owner :contentReference[oaicite:10]{index=10}
+    "SaskPower (Transmission)",                       # Saskatchewan transmission owner :contentReference[oaicite:11]{index=11}
+    "Manitoba Hydro (Transmission)",                  # Manitoba’s transmission owner :contentReference[oaicite:12]{index=12}
+    "Newfoundland and Labrador Hydro (Transmission)",  # NL transmission owner :contentReference[oaicite:13]{index=13}
+    "Yukon Energy Corporation (Transmission)",        # Yukon transmission owner :contentReference[oaicite:14]{index=14}
+    "Northwest Territories Power Corporation (Transmission)",  # NWT transmission owner :contentReference[oaicite:15]{index=15}
+    "Qulliq Energy Corporation (Transmission)",        # Nunavut transmission owner (local) :contentReference[oaicite:16]{index=16}
+    "National Energy System Operator (NESO)",           # Electricity system operator for Great Britain, balancing supply and demand and planning network operation. :contentReference[oaicite:0]{index=0}
+    "National Grid Electricity Transmission plc",       # Electricity transmission owner for England and Wales (historical; assets now under NESO coordination). :contentReference[oaicite:1]{index=1}
+    "SP Transmission plc",                              # Electricity transmission owner in central and southern Scotland. :contentReference[oaicite:2]{index=2}
+    "Scottish Hydro Electric Transmission plc",         # Electricity transmission owner in northern Scotland. :contentReference[oaicite:3]{index=3}
+    "SONI (System Operator for Northern Ireland)",      # Electricity transmission system operator for Northern Ireland. :contentReference[oaicite:4]{index=4}
+    "NIE Networks Limited",                             # Holds electricity transmission licence in Northern Ireland. :contentReference[oaicite:5]{index=5}
+    "Moyle Interconnector Limited",                     # Holds transmission licence (interconnector) in Northern Ireland. :contentReference[oaicite:6]{index=6}
+    "National Gas Transmission",                         # Gas transmission operator for the UK’s National Transmission System. :contentReference[oaicite:7]{index=7}
+    "EirGrid",          # Transmission System Operator for the Republic of Ireland 🇮🇪 :contentReference[oaicite:0]{index=0}
+    "SONI",              # System Operator for Northern Ireland (TSO for Northern Ireland 🇬🇧) :contentReference[oaicite:1]{index=1}
+    "Red Eléctrica de España",  # Electricity transmission system operator (TSO) in Spain :contentReference[oaicite:0]{index=0}
+    "Enagás",                   # Natural gas transmission system operator (TSO) in Spain :contentReference[oaicite:1]{index=1}
+    "Independent Power Transmission Operator S.A. (ADMIE / IPTO)",  # Electricity TSO in Greece 🇬🇷 :contentReference[oaicite:0]{index=0}
+    "Hellenic Gas Transmission System Operator S.A. (DESFA)",         # Natural gas TSO in Greece 🇬🇷 :contentReference[oaicite:1]{index=1}
+    "Turkish Electricity Transmission Corporation (TEİAŞ)",  # electricity transmission system operator in Turkey :contentReference[oaicite:0]{index=0}
+    "BOTAŞ Petroleum Pipeline Corporation (BOTAŞ)",           # national natural gas transmission operator :contentReference[oaicite:1]{index=1}
+    "KEGOC JSC (Kazakhstan Electricity Grid Operating Company)",  # Kazakhstan TSO :contentReference[oaicite:0]{index=0}
+    "National Electric Grid of Uzbekistan JSC",  # Uzbekistan TSO :contentReference[oaicite:1]{index=1}
+    "National Electric Grid of Kyrgyzstan (NESK / NEGK)",  # Kyrgyzstan TSO :contentReference[oaicite:2]{index=2}
+    "Barqi Tojik",  # Tajikistan integrated electricity company (transmission included) :contentReference[oaicite:3]{index=3}
+    "Turkmenenergo (Turkmenistan)",  # Turkmenistan vertically integrated utility (includes transmission) :contentReference[oaicite:4]{index=4}
+    "National Power Transmission Grid (Mongolia)",  # Mongolia grid operator (transmission) :contentReference[oaicite:5]{index=5}
+    "Powerlink Queensland",   # Queensland TNSP (NEM) :contentReference[oaicite:1]{index=1}
+    "Transgrid",              # NSW & ACT TNSP (NEM) :contentReference[oaicite:2]{index=2}
+    "ElectraNet",             # South Australia TNSP (NEM) :contentReference[oaicite:3]{index=3}
+    "TasNetworks",            # Tasmania TNSP (NEM) :contentReference[oaicite:4]{index=4}
+    "AusNet Services",        # Victoria TNSP (NEM) (transmission part) :contentReference[oaicite:5]{index=5}
+    "Directlink",             # Interconnector TNSP (HVDC link) :contentReference[oaicite:6]{index=6}
+    "Murraylink",             # Interconnector TNSP (HVDC link) :contentReference[oaicite:7]{index=7}
+    "Western Power",           # WA transmission operator (SWIS) :contentReference[oaicite:8]{index=8}
+    "Transpower",
+    "Clarus",
+    "Powerco",
+    "Vector",
+    "Wellington Electricity",
+    "Energinet",            # Denmark :contentReference[oaicite:1]{index=1}
+    "Statnett",             # Norway :contentReference[oaicite:2]{index=2}
+    "Fingrid",              # Finland :contentReference[oaicite:3]{index=3}
+    "Svenska kraftnät",     # Sweden :contentReference[oaicite:4]{index=4}
+    "Elering",              # Estonia :contentReference[oaicite:5]{index=5}
+    "Augstsprieguma tīkls", # Latvia :contentReference[oaicite:6]{index=6}
+    "Litgrid",              # Lithuania :contentReference[oaicite:7]{index=7}
+    "Landsnet",             # Iceland :contentReference[oaicite:8]{index=8}
+    "TenneT",               # Netherlands (for northern Europe region) :contentReference[oaicite:9]{index=9}
+    "SONI",                  # Northern Ireland (UK) :contentReference[oaicite:10]{index=10}
+    "Polskie Sieci Elektroenergetyczne (PSE)",                     # Poland :contentReference[oaicite:0]{index=0}
+    "Česká elektroenergetická přenosová soustava (ČEPS)",         # Czechia :contentReference[oaicite:1]{index=1}
+    "Slovenská elektrizačná prenosová sústava (SEPS)",            # Slovakia :contentReference[oaicite:2]{index=2}
+    "Magyar Villamosenergia‑ipari Átviteli Rendszerirányító ZRt. (MAVIR)",  # Hungary :contentReference[oaicite:3]{index=3}
+    "Transelectrica",                                             # Romania :contentReference[oaicite:4]{index=4}
+    "Electroenergien Sistemen Operator (ESO)",                     # Bulgaria :contentReference[oaicite:5]{index=5}
+    "Ukrenergo",                                                  # Ukraine :contentReference[oaicite:6]{index=6}
+    "Macedonian Transmission System Operator (MEPSO)",            # North Macedonia :contentReference[oaicite:7]{index=7}
+    "Elektromreža Srbije (EMS)",                                   # Serbia :contentReference[oaicite:8]{index=8}
+    "Empresa Propietaria de la Red (EPR)",            # Regional transmission owner for SIEPAC :contentReference[oaicite:0]{index=0}
+    "Ente Operador Regional (EOR)",                  # Regional transmission system operator for the MER/SIEPAC :contentReference[oaicite:1]{index=1}
+    "Empresa de Transmisión Eléctrica, S.A. (ETESA)", # Panama national transmission operator :contentReference[oaicite:2]{index=2}
+    "Centro Nacional de Control de Energía (CENCE)",  # Costa Rica transmission system operator :contentReference[oaicite:3]{index=3}
+    "Empresa Nacional de Energía Eléctrica (ENEE)",   # Honduras vertically integrated utility & transmission operator :contentReference[oaicite:4]{index=4}
+    "Instituto Nacional de Electrificación (INDE)",   # Guatemala national transmission & electricity authority (shares in EPR) :contentReference[oaicite:5]{index=5}
+    "Electric Transmission and Dispatch Center (CNDC)",# Nicaragua transmission dispatch center :contentReference[oaicite:6]{index=6}
+    "Belize Electricity Limited (BEL)"                # Belize national grid operator/transmission provider :contentReference[oaicite:7]{index=7}
 ]
 
 
@@ -173,7 +769,9 @@ WHERE {
   VALUES ?operatorType {
     wd:Q112046  # transmission system operator
     wd:Q472093  # electricity distribution network operator
-    wd:Q1326624
+    wd:Q1326624 # electricity supply company
+    wd:Q200928  # electric power transmission
+    wd:Q7236594 # power pool
   }
 
   ?operator wdt:P31 ?operatorType ;
@@ -239,7 +837,8 @@ ALLOWED_INSTANCE_QIDS = {
     "Q891723",
     "Q1951366",
     "Q197952",
-    "Q270791"
+    "Q270791",
+    "Q327333"
 }
 
 def search_wikidata(name, limit=10, fuzzy_threshold=0.6, max_fallbacks=3):
@@ -284,6 +883,7 @@ def search_wikidata(name, limit=10, fuzzy_threshold=0.6, max_fallbacks=3):
             score = similarity(query, label)
             if score >= fuzzy_threshold:
                 results.append((qid, label, score))
+                print(qid, label, score)
         results.sort(key=lambda x: x[2], reverse=True)
         return results
 
@@ -398,7 +998,7 @@ for qid in new_qids:
     data = fetch_operator_metadata(qid)
     if data:
         metadata_rows.append(data)
-    time.sleep(0.1)  # polite delay
+    time.sleep(0.3)  # polite delay
 
 df_new_metadata = pd.DataFrame(metadata_rows)
 
