@@ -18,9 +18,6 @@ def load_names(csv_path="data/names_seed.csv"):
 
 names = load_names()
 
-print(names[0:5])
-quit()
-
 # ----------------------------
 # Part 0: Setup
 # ----------------------------

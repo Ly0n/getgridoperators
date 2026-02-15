@@ -1,0 +1,6 @@
+source,category,operator_qid,operator_label,operator_type_qid,operator_type_label,country_qid,country_label,website,description_en
+wikidata,Ministry,Q5260283,Department of Energy,Q19973795,ministry of energy,Q258,South Africa,,South Africa
+wikidata,Ministry,Q98152568,Department of Mineral Resources and Energy,Q19973795,ministry of energy,Q258,South Africa,,department of the South African government
+wikidata,TSO,Q10341099,Operador Nacional do Sistema Elétrico,Q112046,transmission system operator for electricity,Q155,Brazil,https://www.ons.org.br/,Brazilian electricity grid operator
+wikidata,Regulator,Q4095715,Brazilian Electricity Regulatory Agency,Q1639780,regulatory agency,Q155,Brazil,http://www.aneel.gov.br,
+wikidata,Ministry,Q2602051,Ministry of Mines and Energy,Q19973795,ministry of energy,Q155,Brazil,http://www.mme.gov.br,Brazilian government ministry
