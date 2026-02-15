@@ -1,6 +1,8 @@
 # src/sources/wikidata.py
 from __future__ import annotations
 
+from src.utils.text import normalize_for_match
+
 import time
 from typing import Dict, List, Optional
 
@@ -64,13 +66,13 @@ def fetch_candidates_for_country(
 
     if category == "TSO":
         strict_types = ["Q112046"]  # transmission system operator
-        fallback_types: List[str] = []
-        kw = ["transmission", "grid", "system operator", "operator", "tsO".lower()]
+        fallback_types = ["Q1326624"]
+        kw = ["transmission", "grid", "system operator", "operator", "electricidad", "energia"]
     elif category == "Regulator":
         # Use verified QIDs here:
         strict_types = ["Q1639780"]  # regulatory agency/body 
-        fallback_types: List[str] = [] # ["Q327333", "Q2659904"]  # government agency/org (broad)
-        kw = ["energy", "electricity", "power", "grid", "renewable"]
+        fallback_types: List[str] = [] # fallback_types= ["Q327333", "Q2659904"]  # government agency/org (broad)
+        kw = ["energy", "electricity", "power", "grid", "renewable", "renewables","electricidad",'energia']
     elif category == "Ministry":
         strict_types = ["Q19973795"]  #Ministry of energy
         fallback_types = ["Q1805337"] #energy policy
@@ -137,21 +139,29 @@ def fetch_candidates_for_country(
 
     # ---- Decision logic ----
 
-    if category == "TSO":
-        # strict only, no keyword filtering needed
-        return run(strict_types)
+    # if category == "TSO":
+    #     # strict only, no keyword filtering needed
+    #     return run(strict_types)
 
-    # For Regulator:
     # Query strict + fallback types together, then keyword-filter
     types = list(dict.fromkeys(strict_types + fallback_types))
     rows = run(types)
 
     filtered: List[Dict] = []
+
+    
     for r in rows:
         lbl = (r.get("operator_label") or "").lower()
+
         desc = (r.get("description_en") or "").lower()
-        text = f"{lbl} {desc}"
-        if any(k in text for k in kw):
+
+        text = normalize_for_match(f"{lbl} {desc}")
+        kw_norm = [normalize_for_match(k) for k in kw]
+
+
+        if any(k in text for k in kw_norm):
             filtered.append(r)
+
+    # print(filtered)
 
     return filtered

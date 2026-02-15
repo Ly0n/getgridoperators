@@ -21,3 +21,12 @@ def dedupe_rows(rows, key_fields):
         seen.add(key)
         out.append(r)
     return out
+
+
+def normalize_for_match(s: str) -> str:
+    s = s or ""
+    s = s.lower()
+    s = unicodedata.normalize("NFKD", s)
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    s = re.sub(r"\s+", " ", s).strip()
+    return s

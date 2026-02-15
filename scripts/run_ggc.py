@@ -11,7 +11,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from src.utils.paths import project_root
 from src.sources.wikidata import fetch_candidates_for_country
-from src.pipeline.filter import filter_relevant
+from src.pipeline.filter import filter_relevant #not used at the moment, filtering is done in wikidata.py
 from src.pipeline.export import write_csv
 from src.utils.text import dedupe_rows
 
@@ -98,7 +98,6 @@ def main():
                 continue
 
     # Light relevance + dedupe
-    all_rows = filter_relevant(all_rows)
     all_rows = dedupe_rows(all_rows, key_fields=["operator_qid", "category", "country_qid"])
 
     out_path = OUT_DIR / "ggc_wikidata_candidates.csv"
