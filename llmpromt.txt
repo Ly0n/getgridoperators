@@ -126,11 +126,30 @@ If file generation is not possible, return raw CSV only (no commentary, no markd
 Return only a generated CSV file. No UI rendering. No explanations. No markdown.
 
 Now process the following countries:
+China
+India
+South Korea
+Poland
+Pakistan
+Philippines
+Japan
+Indonesia
+South Africa
+Germany
 Australia
 Brazil
 Mexico
 Türkiye
 Vietnam
+Egypt
+Malaysia
+Nigeria
+United Kingdom
+Spain
+Italy
+Taiwan
+Thailand
+
 
 ######################################################################################################################################################
 
@@ -237,5 +256,96 @@ Now process the following countries:
 Australia
 Brazil
 Mexico
-Türkiye
-Vietnam
+
+
+
+
+
+#######################################################
+
+PROMPT FOR CROSSREFERENCING ENERGY INSTITUTIONS WITH ENERGY MODELS USED
+
+#######################################################
+
+
+
+You are an expert energy-sector researcher focused on energy system modelling tools, power system simulation, market modelling, and planning tools used by energy institutions.
+
+I will provide a CSV (or pasted rows) with a header that defines the BASE SCHEMA.
+
+TASK
+For each input row (institution), identify energy modelling tools / software / frameworks that the institution uses or explicitly references using, and capture evidence for each claim. Output an expanded dataset.
+
+KEY OUTPUT DESIGN (LONG FORMAT)
+
+* Output is one row per institution–tool pair.
+* Preserve the BASE SCHEMA exactly as provided (same column names, same order, unchanged).
+* Append the NEW COLUMNS listed below after the base columns.
+* If an institution has multiple tools/frameworks, output multiple rows duplicating the base fields.
+* If no tools are found with valid evidence, output exactly one row with tool_name = "UNKNOWN".
+
+SCOPE (what counts as tools/software, can be open source too)
+Include tools used for:
+
+* planning/expansion and adequacy
+* unit commitment / dispatch / production cost modelling
+* market simulation / bidding / settlement simulation
+* forecasting when used operationally or for planning inputs
+* modelling data platforms when explicitly used for modelling/planning
+* in-house tools only if explicitly named
+
+
+DE-PRIORITIZE (do not focus on these)
+
+* dynamic/EMTP and detailed transient tools, unless the institution explicitly highlights them in a planning/market context or they are the only available evidence
+
+HARD FILTERS
+
+* Do NOT guess. Do NOT infer tools based on peers or typical practice.
+* Use a wide search: you may consider ANY modelling tool you find (commercial, open-source, in-house).
+* Prefer primary official sources: institution websites, official reports/methodologies, procurement/tenders, regulator filings, operator procedures, job postings, official presentations, official repositories.
+* Avoid blogs, vendor marketing pages, or third-party summaries unless nothing else exists (then set evidence_strength=LOW and explain why).
+
+EVIDENCE STANDARD (MANDATORY, PER TOOL)
+For every tool you list, provide at least one evidence item with:
+
+* source_type: {official_report, official_methodology, tender_procurement, job_posting, presentation, repository, peer_reviewed, news_release, other}
+* source_title
+* source_date (YYYY-MM-DD if available; otherwise blank)
+* source_link (URL if retrievable; otherwise blank)
+* exact_snippet_or_quote: <= 25 words (or a very tight paraphrase if quoting is not possible)
+* why_it_supports_the_claim: 1 sentence
+
+LINK VALIDITY GATE (CRITICAL)
+
+* You may ONLY use a source_link if it is retrievable (opens successfully; not 404/blocked; contains the report/file/data available; it is not "unknown").
+* If a candidate link is not retrievable, do NOT cite it; find an alternative working source_link.
+* If you cannot find any working evidence link for a tool, do NOT list that tool unless evidence_strength=LOW, source_link is blank, and notes state: "No retrievable source link found".
+* If no tools have retrievable evidence for an institution, output exactly one row with tool_name="UNKNOWN" and notes describing what source types were checked.
+
+CONTROLLED VALUES
+
+* evidence_strength: HIGH, MED, LOW
+* tool_category: planning_expansion, production_cost_uc, market_simulation, distribution_planning, forecasting, data_platform, other
+
+DE-DUPLICATION
+Avoid duplicates for the same institution + tool_name + use_case. Prefer the strongest retrievable source. If additional retrievable sources exist, note: "additional sources exist".
+
+OUTPUT FORMAT OVERRIDE (MANDATORY)
+
+* Output must be a clean pipe-delimited table or a CSV, not a markdown code block.
+* Include a header row.
+* One row per line.
+* No blank lines.
+* All fields must remain single-line.
+
+NEW COLUMNS TO APPEND (in this exact order)
+tool_name | tool_category | use_case | evidence_strength | source_type | source_title | source_date | source_link | exact_snippet_or_quote | why_it_supports_the_claim | notes
+
+INPUT I WILL PROVIDE
+I will paste:
+
+1. The BASE SCHEMA header row, then
+2. The data rows (or upload a CSV).
+
+Proceed immediately after receiving them.
